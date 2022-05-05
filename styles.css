@@ -1,12 +1,17 @@
 body {
     margin: 0;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
 }
 
 .header_logo {
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     position: relative;
-    top: -8px;
+    top: -12px;
 }
 
 .header {
@@ -16,7 +21,7 @@ body {
 }
 
 #header_right {
-    /*Not Completed*/
+
     position: relative;
     top: -8px;
     height: 100%;
@@ -26,12 +31,14 @@ body {
 
 .bordered {
     border-style: groove;
+    border-width: 1px;
+    border-color: white;
 }
 
 .restaurant_img {
     height: 100px;
     width: 100px;
-    border-radius: 2px;
+    border-radius: 5px;
     margin: 5px;
 }
 
@@ -57,12 +64,17 @@ body {
 h1 {
     margin: 0px;
     font-size: 40px;
-    font
+
 }
 
 h3 {
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h5 {
+    margin-top: 0;
+    margin-bottom: 10;
 }
 
 .type_medium {
@@ -90,14 +102,30 @@ h3 {
 }
 
 #content_left {
-    margin-top: 10px;
-    padding-left: 5px;
-    width: 280px;
+    margin-top: 19px;
+    padding-left: 10px;
+    width: 270px;
     float: left;
     background-color: rgb(246, 212, 212);
+    border-radius: 5px;
 }
 
 #content_right {
     width: 800px;
     float: right;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    position: relative;
+    left: 30%;
+    display: inline;
+    border: 1px solid black;
+    padding: 3px;
+    margin: 2px;
+    border-radius: 3px;
+
 }

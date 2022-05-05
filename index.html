@@ -13,14 +13,17 @@
                 <table>
                     <tr>
                         <td>
-                            <a href="#" style="color: white;">Login</a>
+                            <a href="#" style="color: white; padding: 10px;">Login</a>
                         </td>
                         <td>
-                            <table class="bordered">
-                                <tr>
-                                    <td><a href="#" style="color: white;">Create An Account</a></td>
-                                </tr>
-                            </table>
+                            <div class="bordered">
+                                <table>
+                                    <tr>
+                                        <td><a href="#" style="color: white; padding: 5px;">Create an Account</a></td>
+                                    </tr>
+                                </table>
+                            </div>
+
                         </td>
                     </tr>
                 </table>
@@ -30,7 +33,7 @@
 
     <div class="container">
         <div class="content_header">
-            <h1>Breakfast places in Mumbai</h1>
+            <h1>Breakfast Places in Mumbai</h1>
             <div id="container">
                 <div id="content">
                     <div id="content_left">
@@ -38,7 +41,13 @@
                         <form action="">
                             <label for="text">Select Location</label>
                             <br>
-                            <input type="text" id="text" name="select location">
+                            <select name="Select Location">
+                                <option value="">Select Location</option>
+                                <option value="">South Mumbai India</option>
+                                <option value="">North Mumbai India</option>
+                                <option value="">East Mumbai India</option>
+                                <option value="">West Mumbai India</option>
+                            </select>
                         </form>
 
                         <h3>Cuisines</h3>
@@ -58,20 +67,21 @@
                             <input type="checkbox">
                             <label for="text">Street Food</label>
                             <br>
+
                             <h3>Cost For Two</h3>
-                            <input type="radio">
+                            <input type="radio" name="price_range">
                             <label for="text">Less Than 500</label>
                             <br>
-                            <input type="radio">
+                            <input type="radio" name="price_range">
                             <label for="text">500 to 1000</label>
                             <br>
-                            <input type="radio">
+                            <input type="radio" name="price_range">
                             <label for="text">1000 to 1500</label>
                             <br>
-                            <input type="radio">
+                            <input type="radio" name="price_range">
                             <label for="text">1500 to 2000</label>
                             <br>
-                            <input type="radio">
+                            <input type="radio" name="price_range">
                             <label for="text">2000+</label>
                             <br>
                         </form>
@@ -80,14 +90,21 @@
                         <div id="one">
                             <table>
                                 <tr>
-                                    <td><img class="restaurant_img" src="reastaurant.jpg" alt="Big_chill_img"></td>
+                                    <td><img class="restaurant_img" src="restaurant.jpg" alt="Big_chill_img"></td>
                                     <td>
                                         <h3 class="type_large">The Big Chill Cakery Fort</h3>
+                                        <h5>Fort</h5>
                                         <p class="type_medium">Shop 1, Plot D, Samrudhi Complex, Chincholi </p>
                                     </td>
                                 </tr>
                                 <tr>
-
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <hr style="width: 600px;">
+                                            </td>
+                                        </tr>
+                                    </table>
 
                                     <table>
                                         <tr>
@@ -115,14 +132,22 @@
                         <div id="two">
                             <table>
                                 <tr>
-                                    <td><img class="restaurant_img" src="reastaurant.jpg" alt="Big_chill_img"></td>
+                                    <td><img class="restaurant_img" src="restaurant.jpg" alt="Bake_Shop_img"></td>
                                     <td>
-                                        <h3 class="type_large">The Big Chill Cakery Fort</h3>
-                                        <p class="type_medium">Shop 1, Plot D, Samrudhi Complex, Chincholi </p>
+                                        <h3 class="type_large">The Bake Shop</h3>
+                                        <h5>Fort</h5>
+                                        <p class="type_medium">Shop 2, Plot D, Samrudhi Complex, Chincholi </p>
                                     </td>
                                 </tr>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <hr style="width: 600px;">
+                                        </td>
+                                    </tr>
+                                </table>
                                 <tr>
-                                    <table class="bordered_top">
+                                    <table>
                                         <tr>
                                             <td>
                                                 <p>Cuisines</p>
@@ -144,11 +169,21 @@
                             </table>
                         </div>
 
+                        <ul>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                            <li>></li>
+                        </ul>
                     </div>
-                </div>
 
+                </div>
             </div>
+
         </div>
+    </div>
     </div>
 </body>
 
